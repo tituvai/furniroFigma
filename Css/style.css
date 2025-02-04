@@ -1,0 +1,1428 @@
+/* All Common Css Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ ol, 
+ li{
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common Css End */
+
+/* Header Part Start */
+
+#headerPart{
+    padding: 30px 0;
+    /* position: fixed;
+    background: #fff;
+    left: 130px;
+    z-index: 22; */
+}
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerLogo img{
+    width: 100%;
+}
+.headerMenu ul li{
+    display: inline-block;
+    position: relative;
+}
+.headerMenu ul li a{
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    transition: 1s;
+}
+.headerMenu ul li a:hover{
+    color: #FF8C00;
+}
+.headerMenu ul li ul{
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 150px;
+   padding-left: 0; 
+   left: 0; 
+   top: 10px;
+   padding-bottom: 10px;
+   background: #fff;
+   padding-top: 15px;
+   text-align: center;
+}
+
+.headerMenu ul li ul{
+    display: none;
+}
+.headerMenu ul li:hover ul{
+    display: block;
+} 
+.headerMenu ul li ul li{
+    margin-bottom: 10px;
+}
+.headerIcon a{
+    padding: 15px;
+}
+/* Header Part End */
+
+
+/* Banner Part Start */
+
+#bannerPart{
+    background: url(../images/Home/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.bannerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerText{
+    background: #FFF3E3;
+    width: 50%;
+    padding: 50px  0 50px 40px;
+    border-radius: 10px;
+}
+.bannerText h6{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.bannerText h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #B88E2F;
+    padding-right: 200px;
+}
+.bannerText p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+.bannerText a{
+    padding: 25px 72px;
+    background: #B88E2F;
+    color: #fff;
+    transition: 2s;
+    font-size: 16px;
+    font-weight: 700;
+}
+.bannerText a:hover{
+    background: #fff;
+    color: #B88E2F;
+}
+/* Banner Part End */
+
+
+/* Room Part Start */
+#roomPart{
+    padding: 50px 0;
+}
+.roomText{
+    text-align: center;
+}
+.roomText h2{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px;
+}
+.roomText p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+.roomFlex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.roomImage{
+    width: 32%;
+}
+.roomImage img{
+    width: 100%;
+    border-radius: 10px;
+}
+.roomImage h6{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+/* Room Part End */
+
+/* Dining Part Start */
+
+
+.diningImage{
+    width: 24%;
+    position: relative;
+    padding-bottom: 20px;
+}
+.diningFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.diningImage img{
+    width: 100%;
+    display: block;
+}
+.diningText{
+    background: #F4F5F7;
+    padding: 20px;
+}
+.diningText h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #3A3A3A;
+    line-height: 120%;
+}
+.diningText p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+    line-height: 150%;
+}
+.diningText h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3A3A3A;
+    line-height: 150%;
+}
+.diningText h5 del{
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+    line-height: 150%;
+    padding-left: 5px;
+}
+.diningPosition{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: #FF8C00;
+}
+.diningPosition .dining h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.diningOverly{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 96%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 2s;
+}
+.diningOverly:hover{
+    opacity: 1;
+}
+.diningOverly a{
+    padding: 10px 25px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #B88E2F;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.diningAnk{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-left: 120px;
+}
+.diningAnk a{
+    color: #fff;
+    padding-right: 5px;
+}
+.diningButton{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.diningButton a{
+    padding: 10px 40px;
+    border: 2px solid #B88E2F;
+    color: #B88E2F;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 1s;
+}
+.diningButton a:hover{
+    background: #B88E2F;
+    color: #fff;
+}
+
+/* Dining Part End */
+
+/* Footer Part Start */
+#footerPart{
+    padding: 60px 0;
+    border-top: 1px solid #9F9F9F;
+}
+.footerFlex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9F9F9F;
+}
+.footerText img{
+    padding-bottom: 50px;
+}
+.footerText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 25px;
+}
+.footerLink h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-bottom: 50px;
+}
+.footerLink a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+   line-height: 50px;
+}
+.footerLink a:hover{
+    color: #B88E2F;
+}
+.footerInput h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-bottom: 50px; 
+}
+.footerInput input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9F9F9F;
+    border-bottom: 2px solid #000000;
+    padding-right: 15px;
+}
+.footerInput a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    margin-left: 5px; 
+}
+.footerInput a:hover{
+    color: #B88E2F;
+}
+.footerEnd{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 20px;
+}
+/* Footer Part End */
+
+
+
+/* *************************************Home Part End ******************************************************* */
+
+
+/* Shop Part Start ******* */
+#shopPart{
+    background: url(../images/shop\ banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shopOverly{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 200px 0;
+    text-align: center;
+}
+.shopOverly h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #000000;
+}
+.shopOverly p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.shopOverly p span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+/* Shop Part End***** */
+
+/* Shop Navbar Part Start */
+#shopNavbar{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background: #F9F1E7;
+}
+.navbarFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.navbarIcon{
+    display: flex;
+    align-items: center;
+}
+.navbarIcon a{
+    padding-right: 20px;
+}
+.navbarIcon a span{
+    color: #000000;
+    font-size: 16px;
+    padding: 10px;
+}
+.navbarIcon p{
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.sbgLiat{
+    padding-left: 300px;
+    margin-top: 70px;
+}
+.navbarText{
+    display: flex;
+    align-items: center;
+}
+.navbarText p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 30px;
+}
+.navbarText h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding: 10px 20px;
+    background: #fff;
+}
+.navbarText h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding: 10px 40px 10px 10px;
+    background: #fff;
+}
+.shopNamber{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.shopNamber a{
+    padding: 8px 20px;
+    background: #F9F1E7;
+    border-radius: 5px;
+    margin: 5px;
+    color: #000000;
+    transition: 1s;
+}
+.shopNamber a:hover{
+    background: #B88E2F;
+}
+/* Shop Navbar Part End */
+
+
+/* Snop Topi Part Start */
+#topiPart{
+    padding: 100px 50px;
+    background: #F9F1E7;
+}
+.topiFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.topiImage{
+    display: flex;
+}
+.topiText{
+    padding-left: 5px;
+}
+.topiText h3{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #242424;
+}
+.topiText p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #898989;
+}
+/* Shop Topi Part End */
+
+
+
+
+/* ************ Shop Part End******************************************* */
+
+
+/* **************************Saidebar Part Start**************************** */
+
+/* Saidebar Banner Part Start */
+
+#saidbarPart{
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.saidbarFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.saidbarImage{
+    width: 10%;
+}
+.saidbarImage img{
+    padding-bottom: 20px;
+}
+.saidbarBanner{
+    width: 40%;
+    background-color: #F9F1E7;
+    border-radius: 10px;
+    height: 500px;
+}
+.saidbarBanner img{
+    width: 100%;
+}
+.saidbarText{
+    width: 40%;
+}
+.saidbarText h2{
+    font-size: 42px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 70px;
+}
+.saidbarText h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-bottom: 20px;
+}
+.saidbarIcon a{
+    color: #FFC700;
+    padding-right: 10px;
+}
+.saidbarIcon span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.saidbarText p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    padding: 30px 90px 30px 0;
+    line-height: 25px;
+}
+.saidbarSize h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding-bottom: 30px;
+}
+
+.saidbarSize a{
+    padding: 7px 15px;
+    background: #F9F1E7;
+    border-radius: 5px;
+}
+.saidbarSize a:hover{
+    background: #B88E2F;
+    color: #fff;
+}
+.saidbarColor{
+    display: flex;
+    padding: 30px 0;
+}
+.saidebarGreen{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #816DFA;
+    margin-right: 10px;
+}
+.saidebarBlou{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #B88E2F;
+    margin-right: 10px;
+}
+.saidebarOreang{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000000;
+}
+.saidbarButton{
+    padding-bottom: 40px;
+}
+.saidbarButton a{
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.saidbarButton a span{
+    padding: 0
+    10px;
+}
+.saidbarButton a:hover{
+    background: #B88E2F;
+    color: #fff;
+}
+.saiderShear{
+    display: flex;
+    padding: 30px;
+    border-top: 1px solid #D9D9D9;
+}
+.saiderShear p{
+    padding: 5px 0;
+    color: #9F9F9F;
+}
+.shearIcon{
+    padding-left: 10px;
+}
+.shearIcon a{
+    color: #000000;
+    margin-right: 10px;
+}
+
+#subaPart{
+    padding: 60px 0;
+    border-top: 1px solid #D9D9D9;
+    
+}
+.subaHeader{
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+
+}
+.subaHeader h3{
+    padding: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.subaHeader h3 span{
+    color: #000000;
+}
+.subaText{
+
+}
+.subaText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 25px;
+    padding: 20px 100px;
+}
+.subaImage{
+    display: flex;
+    justify-content: space-between;
+}
+.Subaimg{
+    width: 49%;
+}
+.Subaimg img{
+    width: 100%;
+}
+.body{
+    position: relative;
+}
+.Saidebaroverly{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 96%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+.body:hover .Saidebaroverly{
+    opacity: 1;
+}
+
+#shoppingPart{
+    background: whitesmoke;
+    width: 417px;
+    height: 746px;
+    padding: 30px;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    display: none;
+}
+.shoppingHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.shoppingHeader h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+.shoppingHeader a{
+    color: #9F9F9F;
+    font-size: 20px;
+}
+
+.shoppingImages{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+.shoppingPara h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    padding: 0 30px;
+    line-height: 34px;
+}
+.shoppingPara p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B88E2F;
+    padding: 0 30px;
+}
+.shoppingTotal{
+    padding-top: 300px;
+    padding-bottom: 40px;
+    display: flex;
+    border-bottom: 1px solid #D9D9D9;
+}
+.shoppingTotal h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-right: 50px;
+}
+.shoppingTotal p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #B88E2F;
+}
+.shoppingButton{
+    padding: 50px 0;
+    
+}
+.shoppingButton a{
+    padding: 10px 25px;
+    border: 1px solid#000000;
+    margin-right: 10px;
+    border-radius: 30px;
+    color: #000000;
+}
+
+.body:hover #shoppingPart{
+    display: block;
+}
+
+/* Saidebar Banner Part End */
+
+
+
+
+/* **************************Saidebar Part End**************************** */
+
+
+
+/* ***************Product Part Start********************************** */
+
+#productPart{
+    padding: 70px 0;
+}
+.productFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.productText{
+    width: 25%;
+}
+.productText h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+    padding-right: 100px;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+.productText a{
+    font-size: 18px;
+    font-weight: 500;
+    color:  #727272;
+    border-bottom: 2px solid #727272;
+}
+.productImage{
+    width: 24%;
+}
+.productImage img{
+    width: 100%;
+}
+.productImage h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 30px;
+}
+.productImage p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 0;
+}
+.productIcon a{
+    padding: 3px;
+    color: #FFC700;
+}
+.productIcon a span{
+    color: #000000;
+}
+.review{
+    font-size: 13px;
+    font-weight: 500;
+    color: #9F9F9F;
+    border-left: 3px solid #9F9F9F;
+   padding-left: 8px;
+}
+.addproduct{
+    padding-top: 50px;
+}
+.addproduct h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.addDopdown{
+    padding: 10px 20px;
+    background: #B88E2F;
+    border-radius: 5px;
+}
+.addDopdown a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.addDopdown img{
+    width: 15px;
+    padding-left: 30px;
+}
+
+
+#generalPart{
+    
+}
+.generalFlex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.generalText{
+    width: 25%;
+    border-right: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+.generalNone{
+    width: 25%;
+    border-top: 1px solid #E8E8E8;
+}
+
+.generalText h3{
+    font-size: 28;
+    font-weight: 600;
+    color: #000000;
+    line-height: 126.5%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.generalText h2{
+    font-size: 28;
+    font-weight: 600;
+    color: #000000;
+    line-height: 126.5%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.generalText p{
+    font-size: 20;
+    font-weight: 400;
+    color: #000000;
+    line-height: 126.5%; 
+    padding: 15px 0;
+   padding-right: 60px;
+}
+.generalText h6{
+    font-size: 16px; 
+    font-weight: 400;
+    padding: 25px 60px 80px 0;
+    
+    
+}
+.generalText h5{
+    font-size: 16px; 
+    font-weight: 400;
+    padding: 45px 60px 70px 0; 
+}
+.generalText a{
+    padding: 10px 20px;
+    background: #B88E2F;
+    color: #fff;
+}
+.generalBtn{
+    padding-top: 21px;
+}
+
+
+/* ***************Product Part End********************************** */
+
+
+
+
+
+
+/* ***************Cart Part Start*************************************** */
+
+#cartPart{
+    padding: 100px 0;
+}
+.cartFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.cartText{
+    width: 60%;
+    
+}
+.cartCalar{
+  width: 90%;
+  background: #F9F1E7; 
+  display: flex;
+  justify-content: space-evenly; 
+  padding: 20px 40px;
+}
+.cartCalar h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.cartIcon{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    align-items: center;
+}
+.cartIcon p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.cartIcon p span{
+    color: #000000;
+}
+.cartIcon a{
+    border: 2px solid #9F9F9F;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+.cartImage{
+    width: 30%;
+    background: #F9F1E7;
+    text-align: center;
+}
+.cartImage h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.cartTotals{
+    display: flex;
+
+}
+.cartTotals p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+.cartTotals p span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #B88E2F;
+}
+.cartBtn{
+    padding-top: 30px;
+    padding-bottom: 100px;
+} 
+.cartBtn a{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 8px 30px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* ****************Cart Part End***************************************** */
+
+
+
+/* *****************Chackout Part Start******************************* */
+#chackoutPart{
+    padding: 100px 0;
+}
+.chackoutFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.chackoutHeader{
+    width: 46%;
+}
+.chackoutHeader h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.labelChackout{
+    display: flex;
+}
+.chackoutName label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 10px;
+}
+.chackoutName input{
+    display: block;
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 15px;
+    outline: none;
+    border: 2px solid #9F9F9F;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.chackoutLabel input{
+    display: block;
+    width: 440px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 16px;
+    outline: none;
+    border: 2px solid #9F9F9F;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.chackoutLabel label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.chackoutText{
+    width: 40%;
+}
+.chackoutProduct{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 60px;
+   border-bottom: 1px solid #D9D9D9;
+   padding-bottom: 30px;
+}
+.productChakout h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.productChakout p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.productChakout p span{
+    color: #9F9F9F;
+}
+.chackoutRadio h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    padding-left: 10px;
+}
+.productChakout h6{
+    font-size: 24px;
+    font-weight: 700;
+    color: #B88E2F;
+}
+.chackoutRadio{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.productTexts p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.productTexts p span{
+    color: #000000;
+    font-weight: 700;
+}
+.chackoutRadios{
+    display: flex;
+    padding-bottom: 20px;
+} 
+.chackoutRadios p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.chackoutBtn{
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.chackoutBtn a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding: 10px 40px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+/* *****************Chackout Part End******************************* */
+
+
+
+/* *****************ontact Part Start********************************** */
+
+#contactPart{
+   
+}
+.contactText{
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.contactText h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+}
+.contactText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding: 20px 340px;
+    line-height: 25px;
+}
+
+
+.contactFlex{
+    display: flex;
+}
+.contactLocation{
+    width: 50%;
+    display: flex;
+    padding-left: 110px;
+}
+.location a{
+    display: block;
+    width: 22px;
+    height: 27.49px;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 66px;
+    padding-right: 20px;
+}
+.address{
+    padding-top: 30px;
+}
+.address h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 20px;
+}
+.address h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 49px;
+}
+.address p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.contactInput{
+    padding-right: 110px;
+}
+.contactlable label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding: 20px 0;
+}
+.contactlable input{
+    width: 528.75px;
+    height: 70px;
+    border: 2px solid #9F9F9F;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding-left: 15px;
+}
+.contactBtn{
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: #B88E2F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* *****************ontact Part End********************************** */
+
+
+
+/* Blog Part Start */
+#blogPart{
+    padding-top: 100px;
+}
+.blogFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.blogImages{
+    width: 65%;
+}
+.blogImages img{
+    width: 100%;
+}
+
+.blogIcon{
+    display: flex;
+    align-items: center;
+}
+.blogIcon a{
+    width: 24px;
+    height: 24px;
+    color: #9F9F9F;
+    padding-left: 5px;
+}
+.blogIcon p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding-right: 20px;
+}
+.blogBtn{
+    padding-bottom: 50px;
+}
+.blogBtn h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+    padding: 20px 0;
+}
+.blogBtn p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 150%;
+    padding-bottom: 20px;
+}
+.blogBtn a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    margin: 5px;
+}
+
+.blogInput{
+    width: 25%;
+}
+.blogInput input{
+    width: 275px;
+    height: 53px;
+    padding-left: 10px;
+    font-size: 16px;
+    position: relative;
+    border: none;
+    border: 2px solid #9F9F9F;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    
+}
+.blogInput a{
+   border: 2px solid #9F9F9F;
+   padding: 14px;
+   border-left: none;
+   position: absolute;
+   font-size: 17px;
+   color: #9F9F9F;
+   border-radius: 0 10px 10px 0;
+}
+.blogInput h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    padding: 40px;
+}
+
+.desiganFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.blogDesign p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 350%;
+}
+.blogResent{
+    padding-top: 130px;
+}
+.blogResent h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+.resentFlex{
+    display: flex;
+    /* justify-content: space-evenly; */
+   
+}
+
+.resentText img{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.resentTexts{
+    padding-bottom: 68px;
+}
+.resentTexts h6{
+    width: 150px;
+    height: 42px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 20px;
+    padding-right: 40px;
+}
+.resentTexts p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.blogButton{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.blogButton a{
+    padding: 10px 20px;
+    background: #F9F1E7;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: #000000;
+    transition: 1s;
+}
+.blogButton a:hover{
+    background: #B88E2F;
+    color: #fff;
+}
+/* Blog Part End */

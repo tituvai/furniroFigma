@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Furniro</title>
+        <!-- Google Fonts Start -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Google Fonts End -->
+
+        <!-- All Css Link Start -->
+        <link rel="stylesheet" href="Css/all.min.css" />
+        <link rel="stylesheet" href="Css/style.css" />
+        <!-- All Css Link End -->
+    </head>
+    <body class="body">
+        <!-- Header Part Start -->
+
+        <section id="headerPart">
+            <div class="container">
+                <div class="headerFlex">
+                    <div class="headerLogo">
+                        <a href="#">
+                            <picture>
+                                <img src="images/Home/Frame 168.png" alt="Frame 168.png" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="headerMenu">
+                        <ul>
+                            <li><a href="inedex.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="Single.html">Single Product</a></li>
+                            <li><a href="cartSaidbar.html">Cart Sidebar</a></li>
+                            <li><a href="Product.html">Product Comparison</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="Checkout.html">Checkout</a></li>
+                        </ul>
+                    </div>
+                    <div class="headerIcon">
+                        <a href="#">
+                            <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.333 9.99999V4.16666H23.6663V11.1667H21.333M21.333 15.8333H23.6663V13.5H21.333M9.66634 11.1667C12.7813 11.1667 18.9997 12.73 18.9997 15.8333V19.3333H0.333008V15.8333C0.333008 12.73 6.55134 11.1667 9.66634 11.1667ZM9.66634 0.666656C10.904 0.666656 12.091 1.15832 12.9662 2.03349C13.8413 2.90866 14.333 4.09565 14.333 5.33332C14.333 6.571 13.8413 7.75799 12.9662 8.63315C12.091 9.50832 10.904 9.99999 9.66634 9.99999C8.42867 9.99999 7.24168 9.50832 6.36651 8.63315C5.49134 7.75799 4.99967 6.571 4.99967 5.33332C4.99967 4.09565 5.49134 2.90866 6.36651 2.03349C7.24168 1.15832 8.42867 0.666656 9.66634 0.666656ZM9.66634 13.3833C6.20134 13.3833 2.54967 15.0867 2.54967 15.8333V17.1167H16.783V15.8333C16.783 15.0867 13.1313 13.3833 9.66634 13.3833ZM9.66634 2.88332C9.01656 2.88332 8.39339 3.14145 7.93393 3.60091C7.47447 4.06038 7.21634 4.68354 7.21634 5.33332C7.21634 5.9831 7.47447 6.60627 7.93393 7.06573C8.39339 7.5252 9.01656 7.78332 9.66634 7.78332C10.3161 7.78332 10.9393 7.5252 11.3988 7.06573C11.8582 6.60627 12.1163 5.9831 12.1163 5.33332C12.1163 4.68354 11.8582 4.06038 11.3988 3.60091C10.9393 3.14145 10.3161 2.88332 9.66634 2.88332Z"
+                                    fill="black"
+                                />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24.4997 24.5L19.266 19.257M22.1663 12.25C22.1663 14.8801 21.1216 17.4024 19.2618 19.2622C17.4021 21.1219 14.8797 22.1667 12.2497 22.1667C9.61961 22.1667 7.09727 21.1219 5.23753 19.2622C3.3778 17.4024 2.33301 14.8801 2.33301 12.25C2.33301 9.61995 3.3778 7.0976 5.23753 5.23787C7.09727 3.37813 9.61961 2.33334 12.2497 2.33334C14.8797 2.33334 17.4021 3.37813 19.2618 5.23787C21.1216 7.0976 22.1663 9.61995 22.1663 12.25V12.25Z"
+                                    stroke="black"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.16668 3.5C4.94551 3.5 2.33334 6.08533 2.33334 9.275C2.33334 11.8498 3.35418 17.9608 13.4027 24.1383C13.5827 24.2479 13.7893 24.3058 14 24.3058C14.2107 24.3058 14.4173 24.2479 14.5973 24.1383C24.6458 17.9608 25.6667 11.8498 25.6667 9.275C25.6667 6.08533 23.0545 3.5 19.8333 3.5C16.6122 3.5 14 7 14 7C14 7 11.3878 3.5 8.16668 3.5Z"
+                                    stroke="black"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="shop" width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25.2355 19.1926H8.95234L9.76991 17.5273L23.3543 17.5027C23.8137 17.5027 24.2074 17.1746 24.2894 16.7207L26.1707 6.19062C26.2199 5.91445 26.1461 5.63008 25.9656 5.41406C25.8764 5.30775 25.7652 5.22211 25.6396 5.16309C25.514 5.10407 25.377 5.07308 25.2383 5.07227L7.95702 5.01484L7.80937 4.32031C7.7164 3.87734 7.31718 3.55469 6.86328 3.55469H2.63867C2.38267 3.55469 2.13716 3.65638 1.95614 3.8374C1.77513 4.01841 1.67343 4.26393 1.67343 4.51992C1.67343 4.77592 1.77513 5.02143 1.95614 5.20245C2.13716 5.38346 2.38267 5.48516 2.63867 5.48516H6.08124L6.72656 8.55312L8.31523 16.2449L6.26992 19.5836C6.1637 19.727 6.09972 19.8972 6.08523 20.075C6.07073 20.2528 6.10629 20.4312 6.18788 20.5898C6.35195 20.9152 6.68281 21.1203 7.04921 21.1203H8.7664C8.40032 21.6065 8.20258 22.1988 8.20312 22.8074C8.20312 24.3551 9.46093 25.6129 11.0086 25.6129C12.5562 25.6129 13.8141 24.3551 13.8141 22.8074C13.8141 22.1977 13.6117 21.6043 13.2508 21.1203H17.6559C17.2898 21.6065 17.092 22.1988 17.0926 22.8074C17.0926 24.3551 18.3504 25.6129 19.898 25.6129C21.4457 25.6129 22.7035 24.3551 22.7035 22.8074C22.7035 22.1977 22.5012 21.6043 22.1402 21.1203H25.2383C25.7687 21.1203 26.2035 20.6883 26.2035 20.1551C26.2019 19.8994 26.0993 19.6546 25.9179 19.4743C25.7366 19.294 25.4913 19.1927 25.2355 19.1926ZM8.35898 6.91797L24.1035 6.96992L22.5613 15.6051L10.1937 15.627L8.35898 6.91797ZM11.0086 23.6715C10.5328 23.6715 10.1445 23.2832 10.1445 22.8074C10.1445 22.3316 10.5328 21.9434 11.0086 21.9434C11.4844 21.9434 11.8726 22.3316 11.8726 22.8074C11.8726 23.0366 11.7816 23.2564 11.6196 23.4184C11.4575 23.5805 11.2378 23.6715 11.0086 23.6715ZM19.898 23.6715C19.4223 23.6715 19.034 23.2832 19.034 22.8074C19.034 22.3316 19.4223 21.9434 19.898 21.9434C20.3738 21.9434 20.7621 22.3316 20.7621 22.8074C20.7621 23.0366 20.6711 23.2564 20.509 23.4184C20.347 23.5805 20.1272 23.6715 19.898 23.6715Z"
+                                    fill="black"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Header Part End -->
+
+        <!-- Saidbar Banner Part Start -->
+        <section id="saidbarPart">
+            <div class="container">
+                <div class="saidbarFlex">
+                    <div class="saidbarImage">
+                        <picture>
+                            <img src="images/saidebar (2).png" alt="saidebar (2).png" />
+                        </picture>
+                        <picture>
+                            <img src="images/saidebar (3).png" alt="saidebar (3).png" />
+                        </picture>
+                        <picture>
+                            <img src="images/saidbar (4).png" alt="saidbar (4).png" />
+                        </picture>
+                        <picture>
+                            <img src="images/saidbar (5).png" alt="saidbar (5).png" />
+                        </picture>
+                    </div>
+                    <div class="saidbarBanner">
+                        <picture>
+                            <img src="images/saidebar (1).png" alt="images/saidebar (1).png" />
+                        </picture>
+                    </div>
+                    <div class="saidbarText">
+                        <h2>Asgaard sofa</h2>
+                        <h5>Rs. 250,000.00</h5>
+                        <div class="saidbarIcon">
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                            <a href="#"><i class="fa-solid fa-star-half"></i></a>
+                            <a href="#"><span>5 Customer Review</span></a>
+                        </div>
+                        <p>Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</p>
+                        <div class="saidbarSize">
+                            <h3>Size</h3>
+                            <a href="#">L</a>
+                            <a href="#">XL</a>
+                            <a href="#">XS</a>
+                        </div>
+                        <div class="saidbarColor">
+                            <div class="saidebarGreen"></div>
+                            <div class="saidebarBlou"></div>
+                            <div class="saidebarOreang"></div>
+                        </div>
+                        <div class="saidbarButton">
+                            <a href="#">- <span>1</span> +</a>
+                            <a href="#">Add to cart</a>
+                            <a href="#">+ Compar</a>
+                        </div>
+                        <div class="saiderShear">
+                            <div class="shearText">
+                                <p>SKU</p>
+                                <p>Category</p>
+                                <p>Tags</p>
+                                <p>Share</p>
+                            </div>
+                            <div class="shearIcon">
+                                <p>: SS001</p>
+                                <p>: Sofas</p>
+                                <p>: Sofa, Chair, Home, Shop</p>
+                                : <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Saidbar Banner Part End -->
+
+        <!-- Saidebar Suba Part Start -->
+        <section id="subaPart">
+            <div class="container">
+                <div class="subaFlex">
+                    <div class="subaHeader">
+                        <h3><span>Description</span></h3>
+                        <h3>Additional Information</h3>
+                        <h3>Reviews [5]</h3>
+                    </div>
+                    <div class="subaText">
+                        <p>Embodying the raw, wayward spirit of rock roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+                        <p>
+                            Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a
+                            well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while
+                            the guitar-influenced leather strap enables easy and stylish travel.
+                        </p>
+                    </div>
+                    <div class="subaImage">
+                        <div class="Subaimg">
+                            <picture>
+                                <img src="images/suba (1).png" alt="suba (1).png" />
+                            </picture>
+                        </div>
+                        <div class="Subaimg">
+                            <picture>
+                                <img src="images/suba (2).png" alt="suba (2).png" />
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Saidebar Suba Part End  -->
+
+        <!-- Saidebar Dining Part Start -->
+        <section id="DiningPart">
+            <div class="container">
+                <div class="roomText">
+                    <h2>Related Products</h2>
+                </div>
+                <div class="diningFlex">
+                    <div class="diningImage">
+                        <picture>
+                            <img src="images/Home/image 1.png" alt="image 1.png" />
+                        </picture>
+                        <div class="diningText">
+                            <h3>Syltherine</h3>
+                            <p>Stylish cafe chair</p>
+                            <h5>Rp 2.500.000 <del> Rp 3.500.000</del></h5>
+                        </div>
+                        <div class="diningPosition">
+                            <div class="dining">
+                                <h4>-50%</h4>
+                            </div>
+                        </div>
+                        <div class="diningOverly">
+                            <a href="#">Add To Crat</a>
+                        </div>
+                        <div class="diningAnk">
+                            <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i> Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                        </div>
+                    </div>
+                    <div class="diningImage">
+                        <picture>
+                            <img src="images/Home/Images (1).png" alt="Images (1).png" />
+                        </picture>
+                        <div class="diningText">
+                            <h3>Leviosa</h3>
+                            <p>Stylish cafe chair</p>
+                            <h5>Rp 2.500.000</h5>
+                        </div>
+                        <div class="diningPosition">
+                            <div class="dining">
+                                <h4>New</h4>
+                            </div>
+                        </div>
+                        <div class="diningOverly">
+                            <a href="#">Add To Crat</a>
+                        </div>
+                        <div class="diningAnk">
+                            <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i> Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                        </div>
+                    </div>
+                    <div class="diningImage">
+                        <picture>
+                            <img src="images/Home/Images (2).png" alt="Images (2).png" />
+                        </picture>
+                        <div class="diningText">
+                            <h3>Grift</h3>
+                            <p>Night Lamp</p>
+                            <h5>Rp 1.500.000</h5>
+                        </div>
+                        <div class="diningPosition">
+                            <div class="dining">
+                                <h4>-50%</h4>
+                            </div>
+                        </div>
+                        <div class="diningOverly">
+                            <a href="#">Add To Crat</a>
+                        </div>
+                        <div class="diningAnk">
+                            <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i> Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                        </div>
+                    </div>
+                    <div class="diningImage">
+                        <picture>
+                            <img src="images/Home/Images (3).png" alt="Images (3).png" />
+                        </picture>
+                        <div class="diningText">
+                            <h3>Muggo</h3>
+                            <p>Small Mug</p>
+                            <h5>Rp 150.000</h5>
+                        </div>
+                        <div class="diningPosition">
+                            <div class="dining">
+                                <h4>New</h4>
+                            </div>
+                        </div>
+                        <div class="diningOverly">
+                            <a href="#">Add To Crat</a>
+                        </div>
+                        <div class="diningAnk">
+                            <a href="#"><i class="fa-solid fa-share-nodes"></i> Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i> Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i> Like</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="diningButton">
+                    <a href="#">Show More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Saidebar Dining Part End -->
+
+        <!-- Footer Part Start -->
+
+        <section id="footerPart">
+            <div class="container">
+                <div class="footerFlex">
+                    <div class="footerText">
+                        <picture>
+                            <img src="images/Home/logo.png" alt="logo.png" />
+                        </picture>
+                        <p>400 University Drive Suite 200 Coral</p>
+                        <p>Gables,</p>
+                        <p>FL 33134 USA</p>
+                    </div>
+                    <div class="footerLink">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerLink">
+                        <h4>Help</h4>
+                        <ul>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Privacy Policies</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerInput">
+                        <h4>Newsletter</h4>
+                        <input type="text" placeholder="Enter Your Email Address" />
+                        <a href="#">SUBSCRIBE</a>
+                    </div>
+                </div>
+                <p class="footerEnd">2023 furino. All rights reverved</p>
+            </div>
+        </section>
+        <!-- Footer Part End -->
+
+        <div class="Saidebaroverly"></div>
+
+        <!-- Shopping Cart Part Start -->
+        <section id="shoppingPart">
+            <div class="shoppingHeader">
+                <h2>Shopping Cart</h2>
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
+            </div>
+            <div class="shoppingImages">
+                <picture>
+                    <img src="images/shpping (1).png" alt="shpping (1).png" />
+                </picture>
+                <div class="shoppingPara">
+                    <h4>Asgaard sofa</h4>
+                    <p>1 X Rs. 250,000.00</p>
+                </div>
+            </div>
+            <div class="shoppingImages">
+                <picture>
+                    <img src="images/shpping (2).png" alt="shpping (2).png" />
+                </picture>
+                <div class="shoppingPara">
+                    <h4>Casaliving Wood</h4>
+                    <p>1 X Rs. 270,000.00</p>
+                </div>
+            </div>
+            <div class="shoppingTotal">
+                <h4>Subtotal</h4>
+                <p>Rs. 520,000.00</p>
+            </div>
+            <div class="shoppingButton">
+                <a href="#">Cart</a>
+                <a href="#">Checkout</a>
+                <a href="#">Comparison</a>
+            </div>
+        </section>
+        <!-- Shopping Cart Part End-->
+    </body>
+</html>
